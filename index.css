@@ -14,7 +14,8 @@ nav{
     align-items: center;
     box-sizing: border-box;
     padding: 1rem;
-    background-image: url(./media/Wave\ Line2.svg);
+    /* background-image: url(./media/Wave\ Line2.svg); */
+    box-shadow: 0px 10px 20px black;
     
 }
 nav .nav-items a{
@@ -62,7 +63,12 @@ nav .navbtn  .btn-outline-dark{
     justify-content:space-around;
     align-items: center;
     /* border: 2px solid; */
+    position: relative;
     
+ }
+ .hero .design{
+    position: absolute;
+    top: 450px;
  }
  .hero h3{
     color:orangered;
@@ -140,6 +146,9 @@ transition: all .2s ease-in-out;
 .about-btn{
     position: relative;
     top: 10px;
+}
+.about-box .about-left{
+    box-shadow: -10px -10px 30px black;
 }
 /* service*/
 .service{
