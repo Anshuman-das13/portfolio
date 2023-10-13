@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+body{
+    width: 100%;
+}
 
 nav{
     background-color: white;
@@ -174,7 +177,7 @@ transition: all .2s ease-in-out;
     top: 20px;
 }
 .service-box .card:hover{
-    transform: scale(1.2);
+    transform: scale(1.01);
     box-shadow: 5px 5px 10px black;
     transition: all .5s ease-in-out;
 }
@@ -218,7 +221,7 @@ transition: all .2s ease-in-out;
     color:white;
     text-align: center;
     justify-content: center;
-     grid-row: 1/3;
+    grid-row: 1/3;
 
     
 }
